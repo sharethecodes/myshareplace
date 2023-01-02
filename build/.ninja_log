@@ -1,0 +1,8 @@
+# ninja log v5
+3	17	1672674401792555461	CMakeFiles/mybinary.dir/myExtern.cc.o	3326eb5a8dbe3735
+3	5279	1672674407056519674	CMakeFiles/mybinary.dir/main.cpp.o	5210cf588d347871
+3	5293	1672674407072519563	CMakeFiles/mybinary.dir/helloworld.cc.o	7b2cfe4b6e270fc
+5293	5482	1672674407260518287	mybinary	8bdb979d5bf368a0
+1	3	0	clean	a31eedcededa8236
+3	1432	1672674593743251678	CMakeFiles/mybinary.dir/helloworld.cc.o	7b2cfe4b6e270fc
+1432	1587	1672674593895250647	mybinary	8bdb979d5bf368a0

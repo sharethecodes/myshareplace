@@ -1,6 +1,6 @@
 // this is about extern
 
-extern int myExternVar1;
+int myExternVar1 =123;
 extern int myExternFunc();
 int testGlobal = 1;
 
