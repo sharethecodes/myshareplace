@@ -1,1 +1,0 @@
-/usr/bin/c++ -rdynamic CMakeFiles/hello.dir/main.cpp.o CMakeFiles/hello.dir/helloworld.cc.o -o hello  -lGTKMM 

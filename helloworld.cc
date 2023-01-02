@@ -9,7 +9,7 @@ HelloWorld::HelloWorld()
 
   // Sets the border width of the window.
  set_border_width(100);
- set_title("Pixmap'd buttons!");
+ set_title("asdsdad'd buttons!");
   // When the button receives the "clicked" signal, it will call the
   // on_button_clicked() method defined below.
   m_button.signal_clicked().connect(
@@ -25,5 +25,5 @@ HelloWorld::HelloWorld()
 HelloWorld::~HelloWorld() {}
 
 void HelloWorld::on_button_clicked() {
-  std::cout << "Hello World" << std::endl;
+  std::cout << "!Hello asdasdasdasdWorld!" << std::endl;
 }
