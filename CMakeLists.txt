@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.0)
+project(mybinary)
+add_executable(mybinary main.cpp helloworld.cc myExtern.cc)
+
+find_package(PkgConfig)
+pkg_check_modules(GTKMM gtkmm-3.0)
+link_directories(${GTKMM_LIBRARY_DIRS})
+include_directories(include ${GTKMM_INCLUDE_DIRS})
+file(GLOB SOURCES "hardsource/*.cpp")
+target_link_libraries(mybinary ${GTKMM_LIBRARIES})

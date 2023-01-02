@@ -1,0 +1,9 @@
+{
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "/home/oem/gtkTest",
+            "binaryPath": "/home/oem/gtkTest/example",
+            "binaryArgs": []
+        }
+    ]
+}
