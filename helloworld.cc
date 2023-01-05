@@ -19,21 +19,31 @@ HelloWorld::HelloWorld()
   // on_button_clicked() method defined below.
   m_button.signal_clicked().connect(
       sigc::mem_fun(*this, &HelloWorld::on_button_clicked));
+  m_button2.signal_clicked().connect(
+      sigc::mem_fun(*this, &HelloWorld::on_button_clicked2));
+  // put the box into the main window.
+  add(m_box1);
+  m_box1.add(m_button);
+  m_box1.add(m_button2);
+  
 
-  // This packs the button into the Window (a container).
-  add(m_button);
-  add(m_button2);
-
-  // The final step is to display this newly created widget...
   m_button.show();
   m_button2.show();
+  m_box1.show();
 }
 
 HelloWorld::~HelloWorld() {}
 
 void HelloWorld::on_button_clicked() {
   int myExternVar1;
-  //int myExternVar1=222;
+  // int myExternVar1=222;
   std::cout << "!Hello asdasdasdasdWorld!" << std::endl;
-  std::cout << "extern:"<<myExternVar1;
+  std::cout << "extern:" << myExternVar1;
+}
+void HelloWorld::on_button_clicked2() {
+  int myExternVar1;
+  // int myExternVar1=222;
+  std::cout << "The other button" << std::endl;
+  system("echo hello world from c++ to consoel...");
+   system("sudo nautilus");
 }

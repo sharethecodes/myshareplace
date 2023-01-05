@@ -23,7 +23,7 @@ public:
 protected:
   //Signal handlers:
   void on_button_clicked();
-
+  void on_button_clicked2();
   //Member widgets:
   Gtk::Box m_box1;
   //
