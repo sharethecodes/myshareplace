@@ -2,10 +2,17 @@
 
 #ifndef GTKMM_EXAMPLE_HELLOWORLD_H
 #define GTKMM_EXAMPLE_HELLOWORLD_H
-
+#include <gtkmm/box.h>
 #include <gtkmm/button.h>
 #include <gtkmm/window.h>
-
+/**
+ * @brief Brief description of Class HelloWorld
+ * @param m_button is a Button from Class Button...
+ * @authors ak23
+ * @warning you have to add widgets to the window?
+ * @var ? 
+ * 
+ */
 class HelloWorld : public Gtk::Window
 {
 
@@ -18,6 +25,8 @@ protected:
   void on_button_clicked();
 
   //Member widgets:
+  Gtk::Box m_box1;
+  //
   Gtk::Button m_button;
   Gtk::Button m_button2;
 };

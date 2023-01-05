@@ -4,12 +4,17 @@
 #include <iostream>
 
 HelloWorld::HelloWorld()
-    : m_button("press me") // creates a new button with label "Hello World".
+    : m_button("press me"),
+      m_button2(
+          "Run Bash Command") // creates a new button with label "Hello World".
 {
-Gtk::Button* pButton = new Gtk::Button("_Something", true);
+  // Gtk::Button* pButton = new Gtk::Button("_Something", true);
+  m_button2 = Gtk::Button("_Something", true);
   // Sets the border width of the window.
- set_border_width(100);
- set_title("My Program");
+  set_border_width(200);
+  set_title("My GTK+ C++ Programm!");
+  // Sets the margin around the box.
+  m_box1.set_margin_left(100);
   // When the button receives the "clicked" signal, it will call the
   // on_button_clicked() method defined below.
   m_button.signal_clicked().connect(

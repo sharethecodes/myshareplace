@@ -1,0 +1,3 @@
+/home/oem/gtkTest/CMakeFiles/mybinary.dir
+/home/oem/gtkTest/CMakeFiles/edit_cache.dir
+/home/oem/gtkTest/CMakeFiles/rebuild_cache.dir
