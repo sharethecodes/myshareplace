@@ -24,10 +24,12 @@ protected:
   //Signal handlers:
   void on_button_clicked();
   void on_button_clicked2();
+  void on_button_clicked3();
   //Member widgets:
   Gtk::Box m_box1;
   //
   Gtk::Button m_button;
   Gtk::Button m_button2;
+  Gtk::Button m_button3;
 };
 #endif

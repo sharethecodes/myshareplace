@@ -27,7 +27,13 @@ int main(int argc, char *argv[]) {
   myExternVar1 = 321;
   extern int abc;
   extern int abc;
+int a=1;
+int c = 1;
 
+
+std::cout <<"asdkasdkasp";
+std::cout<< "CCC =2?"<< ++c<<",3?"<<++c<<",3?"<<c++ <<",4? "<< c++<<",5?"<<c++<<endl;
+std::cout<<"Res:"<<(a++)*(++a)<<endl;
   // myExternVar1 = 123;
   std::cout << "\nyxxHello World:" << std::endl;
   std::cout << "CHECK:" << myExternVar1;
