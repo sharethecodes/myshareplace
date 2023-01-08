@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.0)
 project(mybinary)
-add_executable(mybinary main.cpp helloworld.cc myExtern.cc CMycar.cc TCPServer.cpp)
+add_executable(mybinary main.cpp helloworld.cc myExtern.cc CMycar.cc CSocketServer.cpp CTCPClient.cpp)
 
 find_package(PkgConfig)
 pkg_check_modules(GTKMM gtkmm-3.0)
